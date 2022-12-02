@@ -2,20 +2,22 @@
 /* Everything */
 body {
     background-color: rgb(254, 229, 201);
+    font-family: sans-serif
 }
 
 .top-nav {
-    background-color: rgb(175, 129, 79);
+    background-color: rgb(18, 12, 5);
     position: fixed;
-    color: rgb(255, 207, 155);
+    color: rgb(251, 186, 116);
     top: 0px;
     right: 0px;
     left: 0px;
-    box-shadow: 0px 4px 4px rgb(89, 65, 40);;
+    box-shadow: 0px 4px 4px rgb(89, 65, 40);
+    text-align: center;
 }
 nav [aria-current=page]{
     /* background-color: rgb(255, 207, 155); */
-    color: rgb(4, 36, 7);
+    color: rgb(255, 236, 215);
     text-shadow: 0px 2px 2px rgb(255, 207, 155);
     /* border-bottom: .25em solid rgb(97, 154, 103); */
     /* box-shadow: 0px 2px 2px rgb(68, 183, 79); */
@@ -25,8 +27,10 @@ nav.top-nav li{
     display: inline-block;
     font-family: sans-serif;
     font-weight: bold;
-    margin: 5px;
+    margin-bottom: 5px;
+    margin-right: 40px;
     user-select: none;
+    font-size: 30px;
 }
 
 nav.top-nav li a{
@@ -38,7 +42,8 @@ nav.top-nav li a:visited{
     text-decoration: none;
 }
 nav.top-nav li:hover{
-    color:black;
+    color: rgb(255, 217, 156);
+    text-shadow: 0px 2px 2px rgb(255, 207, 155);
     text-decoration: underline;
 }
 
@@ -51,8 +56,23 @@ main{
 /* Home Page */
 
 /* Bio Page */
+#pictobio div{
+
+}
+
+#portrait {
+    float: left;
+    /* border: 2px red dotted; */
+    margin-right: 30px;
+}
+
 #bio {
-    color: blue;
+    color: black;
+    font-size: x-large;
+    /* border: 2px red dotted; */
+    width: 85%;
+    margin: auto;
+    
 }
 
 /* Contact Page */
@@ -78,14 +98,13 @@ input{
     width: 100px;
 }
 
-input:invalid {
-    border: 2px dashed red;
-  }
-  
-  input:invalid:required {
-    background-image: linear-gradient(to right, pink, lightgreen);
-  }
-  
-  input:valid {
+input:invalid,
+textarea:invalid {
+    border: 1px dashed red;
+}
+
+input:valid,
+textarea:valid {
     border: 2px solid black;
-  }
+}
+

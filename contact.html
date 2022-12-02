@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Jada King</title>
+        <title>Contact - Jada King</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <nav role="navigation" class="top-nav">
             <ul>
                 <li tabindex=0><a href="index.html">Home</a></li>
-                <li tabindex=1><a href="projects.html">Projects</a></li>
+                <!-- <li tabindex=1><a href="projects.html">Projects</a></li> -->
                 <li nav aria-current=page tabindex=2>Contact</li>
                 <li tabindex=3><a href="resume.pdf" target="_blank">Resume</a></li>
                 <li tabindex=4><a href="about.html">About</a></li>
@@ -16,6 +16,8 @@
         </nav>
         <main>
             <h1>Contact me!</h1>
+            <p>email: jadaleeking[at]gmail[dot]com <br>
+               You can also contact me directly by submitting this form:</p>
             <form action="index.html" method="">
                 <ul>
                     <li>
@@ -30,7 +32,7 @@
 
                     <li>
                         <label for="number">phone number:</label>
-                        <input type="tel" id="number" required>
+                        <input type="tel" id="number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
                     </li>
 
                     <li>
@@ -42,8 +44,6 @@
                         <input type="submit" name="" id="submit" value="submit">
                     </li>
                 </ul>
-                
-
                 
             </form>
         </main>
