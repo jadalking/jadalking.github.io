@@ -54,6 +54,26 @@ main{
 }
 
 /* Home Page */
+.project {
+    /* align-items: ; */
+    margin-bottom: 260px;
+    /* border: 2px red dotted; */
+}
+.video {
+    float: left;
+   /* display: block; */
+   margin-right: 20px;
+   /* clear: right; */
+   /* width: 65%; */
+}
+
+.description {
+    color: black;
+    font-size: x-large;
+    width: 85%;
+    margin: auto;
+
+}
 
 /* Bio Page */
 #pictobio div{
@@ -64,6 +84,13 @@ main{
     float: left;
     /* border: 2px red dotted; */
     margin-right: 30px;
+    
+    
+}
+
+#portrait img{
+    width: 400px;
+    height: auto;
 }
 
 #bio {
