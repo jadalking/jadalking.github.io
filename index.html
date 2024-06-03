@@ -23,8 +23,11 @@
                     </span>
                 </a>
     
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation" onclick="toggleNavbarColor()">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <span class="toggler-icon top-bar"></span>
+                    <span class="toggler-icon middle-bar"></span>
+                    <span class="toggler-icon bottom-bar"></span>
                 </button>
     
                 <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
@@ -47,12 +50,12 @@
             <!-- BIO -->
             <section id="aboutme">
                 <!-- row: pic, bio -->
-                <div class="row pt-3 align-items-center">
-                    <div class="col-lg-6 m-auto" style="border: 2px solid red;">
+                <div class="row pt-3 align-items-center" >
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 m-auto" >
                         <img src="me sq.jpeg" class="rounded-circle img-fluid" alt="a picture of me">
                     </div>
                     
-                    <div class="col descr_border" >
+                    <div class="col-lg-5 col-md-5 col-sm-11 col-11 m-auto descr_border" >
                         <!-- TODO: typing animation effect -->
                         <h1 class="type-animation">hey! i'm jada.</h1>   
                         <p>i'm a senior at northwestern and i like computers, photography, music, and

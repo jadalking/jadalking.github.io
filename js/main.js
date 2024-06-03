@@ -57,3 +57,10 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+
+
+// function toggleNavbarColor() {
+//     var navbar = document.querySelector('.navbar');
+//     navbar.classList.toggle('expanded');
+// }
+    
