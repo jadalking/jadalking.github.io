@@ -18,7 +18,7 @@
         <nav class="navbar navbar-expand-md fixed-top" >
             <div class="container-xxl">
                 <a href="" class="navbar-brand">
-                    <span class="fw-bold ">
+                    <span class="fw-bold navbar-name">
                         jada king
                     </span>
                 </a>
@@ -32,13 +32,13 @@
     
                 <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
                     <ul class="navbar-nav">
-                        <li class="nav-item">
+                        <li class="nav-item mx-2">
                             <a class="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" href="#aboutme">about</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item mx-2">
                             <a class="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" href="#stuffbyme">stuff by me</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item mx-2">
                             <a class="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" href="#contact">contact</a>
                         </li>
                     </ul>
@@ -50,15 +50,15 @@
             <!-- BIO -->
             <section id="aboutme">
                 <!-- row: pic, bio -->
-                <div class="row pt-3 align-items-center" >
-                    <div class="col-9 col-sm-10 col-lg-6 m-auto mb-3" >  <!-- col-lg-6 col-md-6 col-sm-12 col-12  -->
+                <div class="row align-items-center" >
+                    <div class="col-9 col-sm-10 col-lg-6 mx-auto mb-3 " >  <!-- col-lg-6 col-md-6 col-sm-12 col-12  -->
                         <img src="me sq.jpeg" class="rounded-circle img-fluid" alt="a picture of me">
                     </div>
                     
-                    <div class="col-11 col-sm-11 col-lg-5 m-auto descr_border" >    <!-- col-lg-5 col-md-5 col-sm-11 col-11 m-auto descr_border -->
+                    <div class="col descr_border" >    <!-- col-lg-5 col-md-5 col-sm-11 col-11 m-auto descr_border -->
                         <!-- TODO: typing animation effect -->
                         <h1 class="type-animation">hey! i'm jada.</h1>   
-                        <p>i'm a senior at northwestern and i like computers, photography, music, and
+                        <p class="">i'm a senior at northwestern and i like computers, photography, music, and
                             so much more. this page is a work-in-progress but will be dedicated
                             to those things that i love to work on. more to come soon!</p>
                         <!-- <p>feel free to sign my guestbook while you're here :)</p> -->
@@ -70,14 +70,14 @@
             <section id="stuffbyme">
                 <!-- row: section title -->
                 <div class="row mt-5 mb-3" >
-                    <h1 class="type-animation">here's some stuff i've made...</h1>
+                    <!-- <h1 class="type-animation">here's some stuff i've made...</h1> -->
                 </div>
 
                 <!-- ART 390 -->
                 <!-- row: pic carousel, description -->
                 <div class="row mb-5 align-items-center">
                     <!-- carousel -->
-                    <div id="carouselExampleIndicators" class="carousel slide col-lg">
+                    <div id="carouselExampleIndicators" class="carousel slide col-lg-6">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -130,7 +130,7 @@
 
                     <!-- description -->
                     <div class="col descr_border" >
-                        <h2>untitled</h2>
+                        <h2 class="type-animation">untitled</h2>
                         <p class="course_descr">
                             this is a project i made for
                             <a class="link-offset-2" href="https://class-descriptions.northwestern.edu/4900/WCAS/ART/36300"n target="_blank">
@@ -147,11 +147,11 @@
                 <!-- FROGGER -->
                 <!-- row: video, description -->
                 <div class="row mb-5 align-items-center">
-                    <div class="col-lg embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" width="100%" height="315" src="https://www.youtube.com/embed/iclS2pAcv9Q" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="col-lg-6 col-11 m-auto embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" width="100%" height="450" src="https://www.youtube.com/embed/iclS2pAcv9Q" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                    <div class="col descr_border">
-                        <h2>frogger</h2>
+                    <div class="col-lg col descr_border">
+                        <h2 class="type-animation">frogger</h2>
                         <p class="course_descr">this is a game i made for
                             <a class="link-offset-2" href="https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/376.html"n target="_blank">
                                 COMP_SCI 376</a> at NU.
@@ -165,10 +165,10 @@
                 <!-- BREAKOUT -->
                 <!-- row: video, description -->
                 <div class="row align-items-center">
-                    <div class="col-lg embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" width="100%" height="315" src="https://www.youtube.com/embed/ANy_nWvxxHo" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    </div>
-                    <div class="col descr_border">
-                        <h2>breakout</h2>
+                    <div class="col-lg-6 col-11 m-auto embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" width="100%" height="450" src="https://www.youtube.com/embed/ANy_nWvxxHo" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    </div>
+                    <div class="col-lg col descr_border">
+                        <h2 class="type-animation">breakout</h2>
                         <p class="course_descr">here's another game i made for
                             <a class="link-offset-2" href="https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/376.html"n target="_blank">
                             COMP_SCI 376</a>. also a remake made with Unity and C#, this is the game
@@ -191,7 +191,7 @@
                 </div>
 
                 <!-- LINKEDIN & RESUME -->
-                <div class="row justify-content-center mb-3">
+                <div class="row justify-content-center mb-5">
                     <div class="col-auto">
                         <a class="link-underline link-underline-opacity-0" href="https://www.linkedin.com/in/jadaking/" target="_blank">linkedin</a>
                     </div>
